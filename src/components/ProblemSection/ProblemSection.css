@@ -1,0 +1,98 @@
+.problem-section {
+  min-height: 100vh;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 120px 100px;
+
+  background: #050505;
+
+  color: white;
+}
+
+.problem-left {
+  width: 55%;
+}
+
+.problem-right {
+  width: 35%;
+
+  display: flex;
+  justify-content: center;
+}
+
+.problem-tag {
+  color: #f7a54b;
+
+  letter-spacing: 2px;
+
+  margin-bottom: 20px;
+}
+
+.problem-section h2 {
+  font-size: 4rem;
+
+  line-height: 1.1;
+
+  margin-bottom: 30px;
+}
+
+.problem-section span {
+  color: #f7a54b;
+}
+
+.problem-description {
+  font-size: 1.2rem;
+
+  line-height: 1.8;
+
+  color: rgba(255,255,255,0.8);
+
+  margin-bottom: 40px;
+}
+
+.problem-stats {
+  display: flex;
+  gap: 20px;
+}
+
+.problem-stat-card {
+  padding: 20px;
+
+  border-radius: 20px;
+
+  background: rgba(255,255,255,0.05);
+
+  border: 1px solid rgba(255,255,255,0.08);
+}
+
+.problem-stat-card h3 {
+  color: #f7a54b;
+}
+
+.problem-image-card {
+  width: 420px;
+
+  border-radius: 30px;
+
+  overflow: hidden;
+
+  background: rgba(255,255,255,0.05);
+
+  border: 1px solid rgba(255,255,255,0.08);
+}
+
+.problem-image-card img {
+  width: 100%;
+  height: 500px;
+
+  object-fit: cover;
+}
+
+.problem-card-footer {
+  padding: 20px;
+
+  text-align: center;
+}

@@ -1,33 +1,16 @@
-# 🐾 openpaw-website
+# React + Vite
 
-Next.js site + APIs for **OpenPaw** — the public landing/vision site and backend API routes. MIT licensed.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-> Part of [OpenPaw](https://github.com/ayvalabs) by Ayva Labs. Maintainer: **@aeropriest**.
+Currently, two official plugins are available:
 
-## Stack
-- Next.js (App Router) — site + API routes in one project.
-- API routes under `app/api/*`.
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
 
-## Layout
-```
-app/
-├── (marketing)/      landing, vision, build-in-public log
-├── api/
-│   └── health/route.ts   example API route
-├── layout.tsx
-└── page.tsx
-components/  · lib/  · public/
-```
+## React Compiler
 
-## Develop
-```bash
-npm install
-npm run dev   # http://localhost:3000
-```
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-## Notes
-- Secrets via env (`.env.local`, gitignored) — never commit keys.
-- Deploy target: Vercel.
+## Expanding the ESLint configuration
 
-## License
-MIT © 2026 aeropriest
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
